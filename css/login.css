@@ -1,0 +1,36 @@
+.login-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 30px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form input {
+    border: none;
+}
+
+.login-form input:first-child {
+    border-bottom: 1px solid black;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.login-form input::placeholder {
+    color: black;
+    opacity: 0.1;
+}
+
+.login-form input:last-child {
+    background-color: white;
+    font-size: 20px;
+}
+
+.login-form input:hover {
+    opacity: 0.4;
+}
